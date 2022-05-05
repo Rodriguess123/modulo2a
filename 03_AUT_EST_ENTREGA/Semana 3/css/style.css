@@ -1,0 +1,28 @@
+#fotonome{
+    background-color: rgb(193, 170, 243);
+    height: 250px;
+}
+#minhafoto{
+    height: 200px;
+    margin-left: 280px;
+    margin-top: 22px;
+    border: 6px ridge rgb(72, 27, 101);
+    border-radius: 5px;
+    position: absolute;
+}
+#nome{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 80px;
+    color: rgb(51, 31, 82);
+    font-size: 30px;
+}
+#meunome{
+    color: rgb(0, 0, 0);
+    margin-left: 190px;
+    font-size: 23px;
+}
+#cursos{
+    margin-left: 700px;
+    margin: 200px;
+}
