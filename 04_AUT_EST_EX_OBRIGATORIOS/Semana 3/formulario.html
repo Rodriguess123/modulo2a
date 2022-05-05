@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1> Calcule a altura máxima e o tempo de subida de um objeto:</h1>
+    <h2>Insira a velocidade inicial para que seja calculado:</h2>
+    <span id="p1"></span> <br />
+    <span id="p2"></span>
+    <div class="ok" id="resultado">
+    </div>
+    <input type="text" name="valor1" id="valor1">
+    <button onclick="calcular()"> calcular</button>
+</body>
+<script>
+    var vel1 = document.querySelector("#valor1")
+    var gravidade = 10
+    var mostrar = document.querySelector("#resultado")
+    var m = document.querySelector("#p1")
+    var m2 = document.querySelector("#p2")
+    function calcular(){
+        var Ts = parseInt(vel1.value) / gravidade;
+        var Hmax = parseInt(vel1.value ** 2) / parseInt(2*gravidade);
+        m.innerHTML = String("o tempo de subida foi: ") + Ts
+        m2.innerHTML = String("A altura máxima é foi: ") + Hmax
+    }
+</script>
+</html>|
