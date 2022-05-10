@@ -9,14 +9,14 @@
 </head>
 
 <body>
-    <h1> Calcule a altura máxima e o tempo de subida de um objeto:</h1>
+    <center><h1 style="color: rgb(84, 86, 200);">Calcule a altura máxima e o tempo de subida de um objeto:</h1></center>
     <h2>Insira a velocidade inicial para que seja calculado:</h2>
     <span id="p1"></span> <br />
     <span id="p2"></span>
     <div class="ok" id="resultado">
     </div>
     <input type="text" name="valor1" id="valor1">
-    <button onclick="calcular()"> calcular</button>
+    <button onclick="calcular()" style="color: blueviolet;">calcular a velocidade</button>
 </body>
 <script>
     var vel1 = document.querySelector("#valor1")
@@ -24,11 +24,12 @@
     var mostrar = document.querySelector("#resultado")
     var m = document.querySelector("#p1")
     var m2 = document.querySelector("#p2")
-    function calcular(){
+    function calcular() {
         var Ts = parseInt(vel1.value) / gravidade;
-        var Hmax = parseInt(vel1.value ** 2) / parseInt(2*gravidade);
+        var Hmax = parseInt(vel1.value ** 2) / parseInt(2 * gravidade);
         m.innerHTML = String("O tempo de subida foi: ") + Ts
         m2.innerHTML = String("A altura máxima foi: ") + Hmax
     }
 </script>
+
 </html>|
