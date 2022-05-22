@@ -1,28 +1,42 @@
-#fotonome{
+#fotonome {
     background-color: rgb(193, 170, 243);
     height: 250px;
 }
-#minhafoto{
+
+#minhafoto {
     height: 200px;
     margin-left: 280px;
     margin-top: 22px;
-    border: 6px ridge rgb(72, 27, 101);
+    border: 6px ridge rgb(62, 25, 87);
     border-radius: 5px;
     position: absolute;
 }
-#nome{
+
+#nome {
     position: absolute;
     margin-left: 600px;
-    margin-top: 80px;
+    margin-top: 100px;
     color: rgb(51, 31, 82);
-    font-size: 30px;
+    font-size: 35px;
 }
-#meunome{
-    color: rgb(0, 0, 0);
+
+#meucurso {
+    color: rgb(53, 17, 85);
     margin-left: 190px;
-    font-size: 23px;
+    font-size: 25px;
+    margin-top: 10px;
 }
-#cursos{
-    margin-left: 700px;
-    margin: 200px;
+
+
+#horario {
+    color: blueviolet;
+}
+
+#titulo {
+    font-size: 23px;
+    margin-left: 10px;
+}
+
+#informaçoes {
+    margin-left: 30px;
 }
