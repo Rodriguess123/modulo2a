@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 1</title>
+</head>
+
+<body>
+    <h2>Exercício 1</h2>
+    <h3>Escolha a operação de preferência:</h3>
+
+    <div class="radio">
+        <input type="radio" name="botao" id="botao-1" operation="sum">
+        <label for="botao-1"> + soma </label>
+    </div>
+
+    <div class="radio">
+        <input type="radio" name="botao" id="botao-2" operation="subtraction">
+        <label for="botao-2"> - subtração </label>
+    </div>
+
+    <div class="radio">
+        <input type="radio" name="botao" id="botao-3" operation="multiplication">
+        <label for="botao-3"> * multiplicação </label>
+    </div>
+
+    <div class="radio">
+        <input type="radio" name="botao" id="botao-4" operation="division">
+        <label for="botao-4"> / divisão </label>
+    </div>
+
+    <div class="radio">
+        <input type="radio" name="botao" id="botao-5" operation="integer-division">
+        <label for="botao-5"> // divisão inteira </label>
+    </div>
+
+    <div class="radio">
+        <input type="radio" name="botao" id="botao-6" operation="remainder">
+        <label for="botao-6"> % resto </label>
+    </div>
+
+    <div class="container">
+
+        <h3><div class="input-number"> 
+            <label for="number-1"> Insira o 1º número: </label> <hr>
+            <input type="number" name="first-number" id="number-1">
+        </div></h3>
+
+        <h3><div class="input-number">
+            <label for="number-2"> Insira o 2º número: </label> <hr>
+            <input type="number" name="second-number" id="number-2">
+        </div></h3>
+
+        <div class="radios">
+
+        </div>
+
+        <!-- Botão de clicar - Jquery)-->
+        <input type="button" value="Clique para ver o resultado." id="calculateBtn">
+
+        <span class="result"></span>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
