@@ -16,7 +16,7 @@ Auto estudos:
 
 Auto estudos obrigatórios:
 23/05/2022 - Resolução de problemas com algoritmos
-<a href="https://github.com/Intelihub/Template_Aluno/blob/main/03_EX_OBRIGATORIOS/Coloque%20aqui%20entregas%20de%20exerc%C3%ADcios%20obrigat%C3%B3rios.rtf"></a>
+<a href="https://github.com/Rodriguess123/modulo2a/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%205/Exercicio1"></a>
 
 
 ## Semana 6
