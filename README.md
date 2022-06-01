@@ -1,6 +1,26 @@
-# Nome do aluno
+# Vitória Rodrigues de Oliveira 
+
 Minhas entregas estão definidas aqui:
-## Auto Estudo
-<a href="https://github.com/Intelihub/Template_Aluno/blob/main/02_AUT_EST_ENTREGA/Coloque%20aqui%20as%20entregas%20do%20seu%20auto%20estudo.rtf"> 19/04/2022 - Entrega 1 </a>
-## Obrigatórios
-<a href="https://github.com/Intelihub/Template_Aluno/blob/main/03_EX_OBRIGATORIOS/Coloque%20aqui%20entregas%20de%20exerc%C3%ADcios%20obrigat%C3%B3rios.rtf"> 19/04/2022 - Entrega 1 </a>
+## Semana 4
+
+Auto estudos:
+15/04/2022 - Exercício de personalização da Etapa 3 (currículo)
+<a href="https://github.com/Rodriguess123/modulo2a/tree/main/03_AUT_EST_ENTREGA/Semana%204"></a>
+
+
+## Semana 5
+
+Auto estudos:
+22/05/2022 - Personalização da Etapa 4 (currículo)
+<a href="https://github.com/Rodriguess123/modulo2a/tree/main/03_AUT_EST_ENTREGA/Semana%205"></a>
+
+Auto estudos obrigatórios:
+23/05/2022 - Resolução de problemas com algoritmos
+<a href="https://github.com/Rodriguess123/modulo2a/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%205/Exercicio1"></a>
+
+
+## Semana 6
+
+Auto estudos:
+26/05/2022 - Personalização da Etapa 5 (currículo)
+<a href="https://github.com/Rodriguess123/modulo2a/tree/main/03_AUT_EST_ENTREGA/Semana%206"></a>
