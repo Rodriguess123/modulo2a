@@ -24,3 +24,9 @@ Auto estudos obrigatórios:
 Auto estudos:
 26/05/2022 - Personalização da Etapa 5 (currículo)
 <a href="https://github.com/Rodriguess123/modulo2a/tree/main/03_AUT_EST_ENTREGA/Semana%206"></a>
+
+## Semana 7
+
+Auto estudos:
+02/06/2022 - Personalização da Etapa 6 (currículo)
+<a href="https://github.com/Rodriguess123/modulo2a/tree/main/03_AUT_EST_ENTREGA/Semana%207"></a>
