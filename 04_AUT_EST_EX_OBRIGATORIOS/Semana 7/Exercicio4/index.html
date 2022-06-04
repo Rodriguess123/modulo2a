@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="script.js">
+    <title>Exercício 4</title>
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <div class="container">
+        <h2 style="text-align: center; color: rgb(100, 31, 140);"> Cálculo informando os valores e descontos de passagens para vôos.</h2>
+        <hr>
+        <h3><label> Condições:</label></h3>
+        <p>Se vôo diurno, 200 por pessoa. Se mais do que 50 pessoas, desconto de 40% por
+            pessoa.</p>
+        <p>Se vôo noturno, 100 por pessoa. Se mais do que 50 pessoas, desconto de 20% por pessoa.</p>
+        <hr>
+        <h3><label> Informe a quantidade de pessoas e o período de seu vôo:</label></h3>
+    </div>
+    <input id="valor" type="number">
+    <button onclick="periododiurno()" style="background-color: rgb(209, 175, 241);" >Período Diurno</button>
+    <button onclick="periodonoturno()" style="background-color: rgb(209, 175, 241);" >Período Noturno</button>
+    <p>Você pagará:</p>
+    <h4 class="pagamento"></h4>
+
+</body>
+
+</html>
