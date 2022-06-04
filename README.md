@@ -30,3 +30,7 @@ Auto estudos:
 Auto estudos:
 02/06/2022 - Personalização da Etapa 6 (currículo)
 <a href="https://github.com/Rodriguess123/modulo2a/tree/main/03_AUT_EST_ENTREGA/Semana%207"></a>
+
+Auto estudos obrigatórios:
+04/06/2022 - Resolução de problemas com algoritmos
+<a href="https://github.com/Rodriguess123/modulo2a/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%207"></a>
