@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="script.js">
     <title>Exercicio1</title>
 </head>
+
 <body>
-    
+    <script src="script.js"></script>
+    <div class="container">
+        <h2>Informe a quantidade de um produto em um valor inteiro de sua preferência:</h2>
+        <h3>
+            <label> Produto em valor inteiro: </label>
+            <hr>
+            <input id="valor" type="number">
+            <button onclick="salvar()">Clique para salvar o valor inserido</button>
+        </h3>
+        <h3 style="font-size: 15px;"> Após salvar, manipule seu produto somando ou subtraindo valores.</h3>
+    </div>
+
+    <button style="background-color: rgb(228, 200, 255);" onclick="subtracao()">Subtrair:</button>
+    <button style="background-color: rgb(228, 200, 255);" onclick="soma()">Adicionar:</button>
+    <p class="resultado"></p>
+    <br>
+
 </body>
+
 </html>
