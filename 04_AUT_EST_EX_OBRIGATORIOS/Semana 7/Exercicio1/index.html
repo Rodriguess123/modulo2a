@@ -16,14 +16,23 @@
         <h3>
             <label> Produto em valor inteiro: </label>
             <hr>
+            <!--Campo para inserir o valor inteiro-->
             <input id="valor" type="number">
+
+            <!--Botão para salvar o valor inserido e executar o javascript-->
             <button onclick="salvar()">Clique para salvar o valor inserido</button>
+
         </h3>
         <h3 style="font-size: 15px;"> Após salvar, manipule seu produto somando ou subtraindo valores.</h3>
     </div>
 
+    <!--Botão que executa o js para subtrair 1 unidade do valor inserido-->
     <button style="background-color: rgb(228, 200, 255);" onclick="subtracao()">Subtrair:</button>
+
+    <!--Botão que executa o js para adicionar 1 unidade do valor inserido-->
     <button style="background-color: rgb(228, 200, 255);" onclick="soma()">Adicionar:</button>
+
+    <!--campo que aparecerá o resultado do cáculo-->
     <p class="resultado"></p>
     <br>
 
