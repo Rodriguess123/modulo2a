@@ -43,8 +43,8 @@ app.post('/userinsert', urlencodedParser, (req, res) => {
 	res.end();
 });
 
-app.listen(port, hostname, () => {
-    console.log(`Page server running at http://${hostname}:${port}/`);
+app.listen(process.env.PORT, () => {
+    console.log(`Server running!`);
   });
 
 
