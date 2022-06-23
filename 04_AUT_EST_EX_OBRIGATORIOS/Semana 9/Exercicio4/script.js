@@ -9,7 +9,7 @@ function Resultado() {
         var somar1 = Number(ordem[ordem.length - 1])
         var somar2 = Number(ordem[ordem.length - 2])
 
-        // let soma está somando o último e o penúltimo número da lista e o resultado da soma vai para o final da lista e acaba sendo o último número.
+        // let soma está somando o último e o penúltimo número do array. O resultado da soma vai para o final da lista e acaba sendo o último número, assim o cálculo continua.
         let soma = somar1 + somar2
         ordem.push(soma)
     }
